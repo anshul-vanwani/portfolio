@@ -85,14 +85,14 @@ nav{
     left: 0;
     width: 100vw;
 }
-nav h2{
+nav a h2{
     color:aliceblue;
-    position: absolute;
-    left: 0.9vw;
-    top: -4vmin;
-    font-size: 4vmax;
+    position: relative;
     font-family: calibri;
-    
+}
+nav a{
+    text-decoration: none;
+
 }
 
 .links-container{
@@ -276,6 +276,7 @@ p {
   color: #2c3e50;
 }
 
+    
 
 @media(max-width:785px) {
     .links-container{
@@ -284,14 +285,18 @@ p {
         position: fixed;
         top: 0px;
         right: -100%;
-        z-index: 10;
+        z-index: 1;
         width:250px;
         height: 100vh;
         background-color: rgba(0, 0, 0, 0.497);
         transition: 0.5s ease-in-out;
     }
+    
+    
+    section{
+        width: 100vw;
+    }
     .open-sidebar-button{
-        font-size: 25px;
         margin-right: 20px;
     }
     .close-sidebar-button{
@@ -300,7 +305,7 @@ p {
     }
     .open-sidebar-button, .close-sidebar-button{
         display: block;
-
+        
     }
     nav a{
         box-sizing: border-box;
