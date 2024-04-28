@@ -13,7 +13,7 @@
     <section id="home" class="home">
     
         <nav>
-            <a href="index.html" style="z-index: 5;"><h2>Portfolio</h2></a>
+            <a href="index.html" style="z-index: 5;"><div data-aos="slide-right"><h2>Portfolio</h2></div></a>
             <input type="checkbox" id="sidebar-active">
             <label for="sidebar-active" class="open-sidebar-button"><i class="fa-solid fa-sliders" style="color:white;"></i></label>
             <label for="sidebar-active" class="close"></label>
@@ -28,8 +28,8 @@
         </div>
         </nav>
         <div id="main">
-            <div data-aos="fade-right" class="photo up"></div>
-            <div class="text" ><h3>Hello! it's me<br></h3><h1>Anshul Vanwani<br></h1>
+            <div  class="photo up"></div>
+            <div class="text" data-aos="slide-left" data-aos-duration="1000"><h3>Hello! it's me<br></h3><h1>Anshul Vanwani<br></h1>
             <div class="changing-text" >
                 <p>Aspiring </p>
                 <p>
@@ -47,30 +47,28 @@
             </div>
         </div>
     </div>
-
 </section>
-    <section id="about">
-
-        <div class="container" ="fade-up" -duration="1000" style="padding-top: 0vh;">
-            <div id="main" >
-                <div class="photo" style="height:20vmax; width: 20vmax;">
+<section id="about">
+    <div class="container" style="padding-top: 0vh;">
+        <div id="main" >
+            <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-offset="50" class="photo" style="height:20vmax; width: 20vmax;">
                     
-                </div>
-                <div class="text">
-                    <h1 >About <span>Me</span></h1>
-                    <p style="font-size: 1.9vmax;">Hello! I'm Anshul, a passionate and driven BCA student with a keen interest in Web and Software Development. Equipped with a solid foundation in Java, HTML, CSS, JavaScript, SQL Server, and other web technologies, I am dedicated to creating impactful and innovative products. With a strong emphasis on quality and attention to detail, I thrive in challenging environments where I can contribute my skills to drive project success. Outside of coding, I enjoy exploring new technologies, collaborating with peers, and continuously honing my skills to stay at the forefront of the ever-evolving tech landscape.</p>
-                    <a href="data/Anshul_Vanwani_Resume.pdf" download="Anshul_Vanwani_Resume"><button class="resume" style="margin-top: 15px;">More about me <i class="fa-solid fa-circle-info"></i></button></a>
-                </div>
-            </div>        
-        </div>
+            </div>
+            <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-offset="50" class="text">
+                <h1 >About <span>Me</span></h1>                    
+                <p style="font-size: 1.9vmax;">Hello! I'm Anshul, a passionate and driven BCA student with a keen interest in Web and Software Development. Equipped with a solid foundation in Java, HTML, CSS, JavaScript, SQL Server, and other web technologies, I am dedicated to creating impactful and innovative products. With a strong emphasis on quality and attention to detail, I thrive in challenging environments where I can contribute my skills to drive project success. Outside of coding, I enjoy exploring new technologies, collaborating with peers, and continuously honing my skills to stay at the forefront of the ever-evolving tech landscape.</p>
+                <a href="data/Anshul_Vanwani_Resume.pdf" download="Anshul_Vanwani_Resume"><button class="resume" style="margin-top: 15px;">More about me <i class="fa-solid fa-circle-info"></i></button></a>
+            </div>
+        </div>        
+    </div>
 </section>
 <section id="skills">
     <h1 style="font-size: 8vh; text-align: center;margin: 5vh 0;">My <span>Skills</span></h1>
     <div class="con2">
-        <div class="box">
+        <div class="box" data-aos="zoom-in-up" data-aos-duration="800" data-aos-offset="50" >
             <h2><i class="fa-solid fa-gears"> </i> Technical Skills</h2>
             <div class="skills">
-                <div class="skill">
+                <div class="skill" >
                     <div class="skill-name"><i class="fa-brands fa-java" > </i> Java</div>
                     <div class="skill-bar">
                         <div class="skill-per" per="70%" style="max-width: 70%;"></div>
@@ -102,7 +100,7 @@
                 </div>
             </div>
         </div>
-        <div class="box">
+        <div class="box" data-aos="zoom-in-up" data-aos-duration="800" data-aos-offset="50">
             <h2><i class="fa-solid fa-user-tie"> </i> Professional Skills</h2>
             <div class="skills">
                 <div class="skill">
@@ -152,26 +150,26 @@
     <div class="main">
         <ul class="cards">
             <li class="cards_item">
-                <div class="card">
-                    <div class="card_image"><img src="data/M-Mart Screen.jpg"></div>
-              <div class="card_content">
-                  <h2 class="card_title">POS & Inventory Management System</h2>
-                  <h2 class="card_title" style="font-size: small;">Tech stack : Vb.Net (Windows Forms), PHP, Photoshop, MySql (Database)</h2><br>
-                  <p class="card_text">M-Mart streamlines retail operations with efficient POS and inventory management. It offers seamless sales transactions, real-time inventory tracking, and efficient stock replenishment, empowering retailers to improve customer service and drive profitability.</p>
-            </div>
-        </div>
-    </li>
-          <li class="cards_item">
-              <div class="card">
-              <div class="card_image"><img src="data/foodopoils screen.jpg"></div>
-              <div class="card_content">
-                <h2 class="card_title">FoodO’Poils</h2>
-                <h2 class="card_title" style="font-size: small;">Tech stack : PHP, HTML, CSS, JS, Photoshop, <br>MySql (Database)</h2><br>
-                <p class="card_text">FoodO’Poils is a web platform connecting surplus food donors with those in need, streamlining the process of food redistribution to combat hunger efficiently. Donors offer excess food, and recipients access donations seamlessly at a minumum charge of Rs. 5 through the platform.</p>
-                <button class="btn card_btn" onclick="window.open('https://12ansh.github.io/foodopoils.github.io/wallet.html')">Visit Website</button>
-              </div>
-            </div>
-          </li>
+                <div class="card" data-aos="fade-up" data-aos-duration="800" data-aos-offset="50">
+                <div class="card_image"><img src="data/M-Mart Screen.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">POS & Inventory Management System</h2>
+                    <h2 class="card_title" style="font-size: small;">Tech stack : Vb.Net (Windows Forms), PHP, Photoshop, MySql (Database)</h2><br>
+                    <p class="card_text">M-Mart streamlines retail operations with efficient POS and inventory management. It offers seamless sales transactions, real-time inventory tracking, and efficient stock replenishment, empowering retailers to improve customer service and drive profitability.</p>
+                </div>
+                </div>
+            </li>
+            <li class="cards_item">
+                <div class="card" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
+                <div class="card_image"><img src="data/foodopoils screen.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">FoodO’Poils</h2>
+                    <h2 class="card_title" style="font-size: small;">Tech stack : PHP, HTML, CSS, JS, Photoshop, <br>MySql (Database)</h2><br>
+                    <p class="card_text">FoodO’Poils is a web platform connecting surplus food donors with those in need, streamlining the process of food redistribution to combat hunger efficiently. Donors offer excess food, and recipients access donations seamlessly at a minumum charge of Rs. 5 through the platform.</p>
+                    <button class="btn card_btn" onclick="window.open('https://12ansh.github.io/foodopoils.github.io/wallet.html')">Visit Website</button>
+                </div>
+                </div>
+            </li>
         </ul>
     </div>
 </section>
@@ -180,9 +178,9 @@
     <div class="con2" style="padding-top: 0px;">
         <div class="box">
             <h2>Let's Work Togather</h2>
-            <p>Seeking a challenging career opportunity where I can utilize my expertise in web development,
+            <p>Seeking a challenging career opportunity where I can utilize my expertise in web development, 
                 .NET, Java, and strong skills in data structures and algorithms to create innovative solutions
-                and contribute effectively to a forward-thinking team.
+                 and contribute effectively to a forward-thinking team.
             </p>
             <br><br>
             <p><i class="fa-solid fa-share"></i> &nbsp; Gmail : <a onclick='window.open("https://mail.google.com/mail/?view=cm&fs=1&to=anshulvanwani@gmail.com&su=FromPortfolio &body=")' style="color:rgb(5, 5, 192);">anshulvanwani@gmail.com</a></p>
@@ -257,7 +255,7 @@
     <script src="script.js"></script>
     <script>
         AOS.init({
-            offset: -10
+            offset: 0
         });
         
     </script>
